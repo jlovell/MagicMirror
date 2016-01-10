@@ -1,5 +1,5 @@
 var config = {
-    lang: 'nl',
+    lang: 'en',
     time: {
         timeFormat: 12
     },
@@ -7,11 +7,11 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands',
-            units: 'metric',
+            q: 'Chicago,IL',
+            units: 'imperial',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'nl',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            lang: 'en',
+            APPID: '0c4776817ee327cffce035d72bcbe0a7'
         }
     },
     compliments: {
@@ -25,7 +25,8 @@ var config = {
         afternoon: [
             'Hello, beauty!',
             'You look sexy!',
-            'Looking good today!'
+            'Looking good today!',
+            'Hi Austin!'
         ],
         evening: [
             'Wow, you look hot!',
